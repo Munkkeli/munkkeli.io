@@ -26,7 +26,7 @@ var destination = './build';
 var paths = {
 	less: ['./assets/less/*.less'],
 	js: ['./assets/js/*.js'],
-  views: ['./views/*.jade', '!./views/layout.jade'],
+  views: ['./views/*.jade', '!./views/layout.jade', '!./views/meta.jade'],
 	plugins: ['./assets/js/plugins/*.js'],
 	css: ['./assets/css/*.css'],
 	fonts: ['./assets/fonts/*.*'],

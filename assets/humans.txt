@@ -1,0 +1,10 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Tuomas Pöyry -- Designer & Developer -- @munkkeli
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, LESS, JADE, JS

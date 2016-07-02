@@ -1,10 +1,33 @@
+include meta
+
 doctype html
 html
   head
-    title Title
+    title Tuomas Pöyry – munkkeli.io
 
     meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    meta(name='description', content='I am a web designer / developer from Finland.')
+    meta(name='subject', content='I am a web designer / developer from Finland. Here are some links to my social media.')
+    meta(name='abstract', content='Links to my social media accounts.')
+    meta(name='topic', content='Links to my social media accounts.')
+    meta(name='summary', content='Links to my social media accounts.')
+
+    meta(name='url', content='https://munkkeli.io/')
+    meta(name='theme-color', content='#00C3FF')
+
+    meta(name='google', content='notranslate')
+    meta(name='coverage', content='Worldwide')
+    link(rel='me', href='https://twitter.com/munkkeli', type='text/html')
+    link(rel='author', href='humans.txt')
+
+    +facebook('https://munkkeli.io/', 'Tuomas Pöyry – munkkeli.io', 'munkkeli.io', 'I am a web designer / developer from Finland. Here are some links to my social media.', '@munkkeli', 'https://munkkeli.io/images/og-image.png')
+
+    +twitter('https://munkkeli.io/', 'Tuomas Pöyry – munkkeli.io', 'I am a web designer / developer from Finland. Here are some links to my social media.', '@munkkeli', 'https://munkkeli.io/images/og-image.png')
+
+    +google('Tuomas Pöyry – munkkeli.io', 'I am a web designer / developer from Finland. Here are some links to my social media.', 'https://plus.google.com/u/0/+TuomasP%C3%B6yry', 'https://munkkeli.io/images/og-image.png')
 
     link(rel='stylesheet', type='text/css', href='/css/plugins.min.css')
     link(rel='stylesheet', type='text/css', href='/css/style.min.css')
